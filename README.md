@@ -16,8 +16,8 @@ Follow the steps below to deploy your static website using Terraform:
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/mikeross23/aws-s3-static-website-by-terraform
+   cd aws-s3-static-website-by-terraform
    ```
 
 2. **Initialize Terraform:**
@@ -36,7 +36,7 @@ Open the main.tf file and review the configuration. Adjust any variables or sett
    terraform apply
    ```
 
-Enter yes when prompted to confirm the deployment. Terraform will then create the necessary infrastructure resources to host your static website on AWS S3.
+Type 'yes' when prompted to confirm the deployment. Terraform will then create the necessary infrastructure resources to host your static website on AWS S3.
 
 5. **Access the Website:**
 
